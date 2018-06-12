@@ -1,0 +1,18 @@
+<session id="ROOT" time="20180612123809184GMT"/>
+<register epackage="http://eclipsesource.com/makeithappen/model/task"/>
+<create eclass="UserGroup" epackage="http://eclipsesource.com/makeithappen/model/task" id="_FKVOYG41EeiTUvKYSbHIXQ"/>
+<add-to-resource position="0"><value eobject="_FKVOYG41EeiTUvKYSbHIXQ"/></add-to-resource>
+<set-eattribute name="name" target="_FKVOYG41EeiTUvKYSbHIXQ"><value literal="Group 01"/></set-eattribute>
+<create eclass="User" epackage="http://eclipsesource.com/makeithappen/model/task" id="_FKXDkG41EeiTUvKYSbHIXQ"/>
+<add-to-resource position="1"><value eobject="_FKXDkG41EeiTUvKYSbHIXQ"/></add-to-resource>
+<set-eattribute name="firstName" target="_FKXDkG41EeiTUvKYSbHIXQ"><value literal="User 01"/></set-eattribute>
+<remove-from-resource><value eobject="_FKXDkG41EeiTUvKYSbHIXQ"/></remove-from-resource>
+<add-to-ereference name="users" position="0" target="_FKVOYG41EeiTUvKYSbHIXQ"><value eobject="_FKXDkG41EeiTUvKYSbHIXQ"/></add-to-ereference>
+<create eclass="User" epackage="http://eclipsesource.com/makeithappen/model/task" id="_FKXqoG41EeiTUvKYSbHIXQ"/>
+<add-to-resource position="1"><value eobject="_FKXqoG41EeiTUvKYSbHIXQ"/></add-to-resource>
+<set-eattribute name="firstName" target="_FKXqoG41EeiTUvKYSbHIXQ"><value literal="User 02"/></set-eattribute>
+<remove-from-resource><value eobject="_FKXqoG41EeiTUvKYSbHIXQ"/></remove-from-resource>
+<add-to-ereference name="users" position="1" target="_FKVOYG41EeiTUvKYSbHIXQ"><value eobject="_FKXqoG41EeiTUvKYSbHIXQ"/></add-to-ereference>
+<create eclass="Task" epackage="http://eclipsesource.com/makeithappen/model/task" id="_FKY4wG41EeiTUvKYSbHIXQ"/>
+<add-to-resource position="1"><value eobject="_FKY4wG41EeiTUvKYSbHIXQ"/></add-to-resource>
+<set-eattribute name="name" target="_FKY4wG41EeiTUvKYSbHIXQ"><value literal="Task 01"/></set-eattribute>
