@@ -16,3 +16,13 @@
 <create eclass="Task" epackage="http://eclipsesource.com/makeithappen/model/task" id="_FKY4wG41EeiTUvKYSbHIXQ"/>
 <add-to-resource position="1"><value eobject="_FKY4wG41EeiTUvKYSbHIXQ"/></add-to-resource>
 <set-eattribute name="name" target="_FKY4wG41EeiTUvKYSbHIXQ"><value literal="Task 01"/></set-eattribute>
+<session id="LEFT" time="20180612133115321GMT"/>
+<set-eattribute name="firstName" target="_FKXDkG41EeiTUvKYSbHIXQ"><value literal="User 1"/></set-eattribute>
+<create eclass="UserGroup" epackage="http://eclipsesource.com/makeithappen/model/task" id="_f7pQkG48Eei5ZcpbvpA3Yw"/>
+<add-to-resource position="2"><value eobject="_f7pQkG48Eei5ZcpbvpA3Yw"/></add-to-resource>
+<set-eattribute name="name" target="_f7pQkG48Eei5ZcpbvpA3Yw"><value literal="Group 02"/></set-eattribute>
+<session id="RIGHT" time="20180612133115628GMT"/>
+<set-eattribute name="name" target="_FKY4wG41EeiTUvKYSbHIXQ"><value literal="Task A"/></set-eattribute>
+<remove-from-resource><value eobject="_FKVOYG41EeiTUvKYSbHIXQ"/></remove-from-resource>
+<delete eclass="User" epackage="http://eclipsesource.com/makeithappen/model/task" id="_FKXqoG41EeiTUvKYSbHIXQ"/>
+<delete eclass="UserGroup" epackage="http://eclipsesource.com/makeithappen/model/task" id="_FKVOYG41EeiTUvKYSbHIXQ"/>
